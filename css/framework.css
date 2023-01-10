@@ -1,0 +1,68 @@
+.eee {
+    background-color: #eee;
+}
+
+.br {
+    border-radius: 10px;
+}
+
+.grey {
+    color: #888;
+}
+
+.font {
+    font-family: "Font Awesome 6 Free"; font-weight: 900; content: "\f1f8";
+ 
+}
+
+.b-color {
+    color: #0075ff;
+}
+
+.padding {
+    padding-left: 20px;
+}
+
+.h3 {
+    color: black;
+    font-weight: 400;
+}
+
+.a {
+    border-radius: 10px;
+  background-color: #0075ff;
+  font-size: 15px;
+  font-weight: 450;
+  color: white;
+  padding: 7px 10px 7px;
+}
+@media (max-width: 1172px) {
+    .fourth-srv {
+      flex-wrap: wrap;
+    }
+  }
+
+.h2 {
+    padding-left: 20px;
+    color: black;
+}
+
+.new-section {
+    padding-top: 15px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.srv {
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.colors {
+    color: #0075ff ,  #f59e0b;;;
+    color:   #22c55e;
+    color: #0d69d5;
+    color: #f44336
+}
