@@ -1413,6 +1413,8 @@ border-width: 7px;
 .last-srv {
   padding-top: 20px;
   overflow-x: auto;
+  padding-bottom: 20px;
+  height: 600px;
 }
 
 
@@ -1424,6 +1426,8 @@ border-width: 7px;
   min-width: 1000px;
   overflow-x: auto;
   position: relative;
+   
+  padding-bottom: 20px;
 }
 .last-srv #Projects > h2 {
   position: absolute;
@@ -1526,3 +1530,672 @@ border-width: 7px;
   transform: translateY(6px);
 }
 /*last-srv*/
+
+
+
+
+
+
+
+
+/*Settings*/
+/*first-section*/
+
+.firstsection {
+  display: flex;
+  padding-top: 20px;
+  gap: 20px;
+} 
+.firstsection .srv {
+  min-height: 360px;;
+}
+
+.firstsection .srv .content h3 {
+  font-weight: 450;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.firstsection .srv .content span {
+  font-weight: 300px;
+  font-size: 15px;
+  display: flex;
+  transform: translateY(-8px);
+}
+.firstsection .srv .content .textarea {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.firstsection .srv .content .textarea textarea {
+  width: 95%;
+  resize: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.131);
+  font-size: 13px;
+}
+.firstsection .srv .content .textarea textarea::placeholder {
+ font-size: 13px;
+ letter-spacing: 1px;
+  
+}
+
+#v {
+  position: relative;
+  
+}
+
+#v   .check {
+  position: absolute;
+ 
+  top: 0;
+  right:  0;
+  width: 74px;
+  height: 32px;
+  border-radius: 15px;
+  text-align: center;
+}
+#v  .check .button {
+position: absolute;
+right: 0;
+top: 0;
+width: 74px;
+height: 32px;
+background-color: rgba(0, 0, 0, 0.164);
+border-radius: 15px;
+transform: translateX(-30px);
+ 
+}
+ 
+#v  .check .b {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  left: 4px;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 0 5px ;
+  transform: translate(-22px,-50%);
+  appearance: none;
+  -webkit-appearance: none;
+ z-index: 2;
+ opacity: 0;
+ cursor: pointer;
+}
+.check .button:after {
+  position: absolute;
+  content: "\f00d";
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  color: rgba(0, 0, 0, 0.375);
+  top: 50%;
+  transform: translateY(-50%);
+  left: 4px;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 0 5px ;
+  display:flex;
+  z-index: 1;
+  transition: 0.3s;
+}
+#v  .check input[type="checkbox"]:checked + .button  {
+  background-color: #0075ff ;
+}
+#v  .check input[type="checkbox"]:checked + .button:after {
+  content: "\f00c";
+  font-size: 18px;
+  transform: translate(37px,-50%);
+  color: #0075ff;
+}
+
+
+/*general*/
+ 
+#general span {
+  font-weight: 300px;
+  font-size: 15px;
+  display: flex;
+  transform: translateY(-8px);
+}
+#general   label   {
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  padding-bottom: 10px;
+}
+#general input {
+  width: 96%;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.145);
+  padding: 10px;
+  font-size: 10px;
+  font-weight: 500;
+}
+#general input::placeholder {
+  font-size: 13px;
+}
+
+#general .email {
+  width: calc(100% - 100px);
+  background-color: #0077ff10;
+  display: block;
+  cursor: not-allowed;
+}
+#general .email::placeholder {
+  opacity: 0.6;
+}
+#general {
+  position: relative;
+}
+#general form  {
+  position: relative;
+}
+#general form span {
+  position: absolute;
+  right: 2px;
+  bottom: 4px;
+  transform: translateX(-15px);
+  padding: 10px;
+  color: #0075ff;
+  font-size: 16px;
+  font-weight: 550;
+  cursor: pointer;
+  display: block;
+  
+}
+
+/*general*/
+/*first-section*/
+
+
+
+
+
+/*second-section*/
+
+/*security*/
+.secondsection {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.secondsection .srv {
+  min-height: 360px;;
+}
+
+.secondsection #security .colmn {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+.secondsection #security .content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.secondsection #security .colmn:not(:last-child):after {
+content: "";
+position: absolute;
+bottom: -30px;
+left: 20px;
+height: 1px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.077);
+width: calc(100% - 50px);
+}
+.secondsection #security .colmn .f h3 {
+  font-weight: 450;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.secondsection #security .colmn .f span {
+  font-weight: 300px;
+  font-size: 13px;
+  display: flex;
+  transform: translateY(-3px);
+ padding-left: 20px;
+ color: #888;
+}
+.secondsection #security .colmn .s {
+  display: flex;
+  align-self: center;
+  padding: 10px;
+  transform: translateX(-20px);
+}
+.secondsection #security .colmn:first-child .s span {
+  background-color: #0075ff;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  transform: translateY(10px);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.secondsection #security .colmn:first-child .s span:hover {
+  background-color: #0f54a3;
+}
+
+.firstsection .srv .content h3 {
+  font-weight: 450;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.firstsection .srv .content span {
+  font-weight: 300px;
+  font-size: 15px;
+  display: flex;
+  transform: translateY(-8px);
+}
+
+#security .s  .check {
+  position: absolute;
+ 
+  top: 0;
+  right:  0;
+  width: 74px;
+  height: 32px;
+  border-radius: 15px;
+  text-align: center;
+}
+#security .s   .check .button {
+position: absolute;
+right: 0;
+top: 0;
+width: 74px;
+height: 32px;
+background-color: rgba(0, 0, 0, 0.164);
+border-radius: 15px;
+transform: translate(-10px,5px);
+ 
+}
+ 
+#security .s  .check .b {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  left: 4px;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 0 5px ;
+  transform: translate(-22px,-50%);
+  appearance: none;
+  -webkit-appearance: none;
+ z-index: 2;
+ opacity: 0;
+ cursor: pointer;
+}
+#security .s  .check .button:after {
+  position: absolute;
+  content: "\f00d";
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  color: rgba(0, 0, 0, 0.375);
+  top: 50%;
+  transform: translateY(-50%);
+  left: 4px;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 0 5px ;
+  display:flex;
+  z-index: 1;
+  transition: 0.3s;
+}
+#security .s  .check input[type="checkbox"]:checked + .button  {
+  background-color: #0075ff ;
+}
+#security .s   .check input[type="checkbox"]:checked + .button:after {
+  content: "\f00c";
+  font-size: 18px;
+  transform: translate(37px,-50%);
+  color: #0075ff;
+}
+
+
+.secondsection #security .colmn:last-child .s span {
+  background-color: rgba(0, 0, 0, 0.101);
+  padding: 5px 10px;
+  border-radius: 5px;
+  transform: translateY(10px);
+}
+.secondsection #security .colmn:last-child .s  a {
+  text-decoration: none;
+  color: black;
+}
+/*security*/
+
+
+/*Social-Info*/
+ 
+ 
+ 
+#Social form input::placeholder {
+  font-weight: 600;
+  font-size: 13px;
+}
+#Social form  input:before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 1px;
+  background-color: black;
+  border-left: 1px solid black;
+  left: 0;
+}
+#Social form .i {
+  display: flex;
+  position: absolute;
+  font-size: 17px;
+  top: 0;
+  left: -5px;
+  color: rgba(0, 0, 0, 0.524); 
+  transition: 0.3s;
+}
+#Social  form .i  i:first-child {
+  transform: translateY(10px);
+}
+#Social  form .i  i:nth-child(2) {
+  transform: translateY(5px);
+}
+#Social  form .i  i:last-child {
+  transform: translateY(-5px);
+}
+#Social    i {
+  overflow: hidden;
+  position: relative;
+}
+#Social    i:after {
+  border-right: 1px solid rgba(0, 0, 0, 0.178);
+  position: absolute;
+  height: 100%;
+   width: 1px;
+  bottom: 0;
+  transform: translateX(4px);
+  right:     10px;
+  content: "";
+}
+#Social form input {
+  padding: 10px;
+  width: 97%;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.109);
+  padding-left: 45px;
+  font-size: 13px;
+  outline: none;
+  overflow: hidden !important;
+  background-color: rgba(136, 136, 136, 0.074);
+}
+#Social  form input:focus   i {
+  color: black;
+   
+}
+#Social form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 10px;
+  position: relative;
+  overflow: hidden !important;
+}
+/*second-section*/
+
+
+
+
+
+
+
+
+
+
+/*thirdsection*/
+/*Control*/
+.thirdsection {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+
+.thirdsection .srv {
+  min-height: 340px;
+}
+
+
+.thirdsection #Control ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.thirdsection #Control ul li {
+  cursor: pointer;
+  position: relative;
+  width: 50%;
+   
+}
+.thirdsection #Control ul li input[type="checkbox"] {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right:147px;
+   cursor: pointer;
+  z-index: 1;
+  appearance: none;
+  -webkit-appearance:none ;
+}
+.thirdsection #Control ul li span {
+  font-weight: 600;
+  padding-left: 34px;
+  position: relative;
+  transition-duration: 0.3s;
+}
+.thirdsection #Control ul li span:after {
+  left: 2px;
+  top: 0;
+  border-radius: 3px;
+  transform: translateX(2px);
+  content: "\f00c";
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  font-family: "Font Awesome 6 Free";
+  background-color:#0075ff;
+  position: absolute;
+  text-align: center;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  scale: 0;
+  transform: rotate(180deg);
+}
+.thirdsection #Control ul li span:before {
+  width: 15px;
+  height: 15px;
+  left: 0;
+  top: 1px;
+  border-radius: 3px;
+  transform: translateX(2px);
+  content: "";
+  text-align: center;
+  border : 1px solid rgba(0, 0, 0, 0.25);
+  position: absolute;
+}
+
+.thirdsection #Control ul li input:checked + span:after {
+  scale: 1;
+  transition: 0.3s;
+  transform: rotate(360deg);
+  text-align: center;
+}
+/*Control*/
+
+
+
+/*Manager*/
+#Manager ul {
+  font-size: 20px;
+  position: relative;
+}
+#Manager ul:after {
+  content: "";
+  position: absolute;
+  bottom:-7px;
+  left: 10px;
+  width: calc(100% - 30px);
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#Manager ul li {
+  position: relative;
+  width: 60%;
+  padding-bottom: 10px;
+   
+}
+
+#Manager ul label:before {
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  height: 17.5px;
+  width: 17.5px;
+  border: 2px solid rgba(0, 0, 0, 0.6);
+  left: -1px;
+}
+#Manager ul label:after {
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  border: 2px solid #0075ff;
+  background-color: #0075ff;
+  left: 4px;
+  justify-content: center;
+  top: 4px;
+  scale: 0;
+  transition: 0.3s;
+}
+#Manager ul li input {
+  width: 100%;
+  left: -180px;
+  position: absolute;
+  height: 80%;
+   appearance: none;
+  z-index: 1;
+  cursor: pointer;
+  
+}#Manager ul li input:checked + label:after  {
+   scale: 1;
+}
+#Manager ul li input:checked + label:before {
+  border-color: #0075ff;
+}
+#Manager ul li label {
+  padding-left: 30px;
+  position: relative;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+
+#Manager .fe {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  text-align:center;
+}
+#Manager .fe span {
+  padding: 45px 70px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  text-align:center;
+  transform: translateX(-10px);
+  cursor: pointer;
+}
+#Manager .fe span::before {
+  content: "\f00b";
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  top: 10px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+   
+}
+ 
+/*Manager*/
+
+
+/*thirdsection*/
+
+
+
+
+
+
+
+/*Second-Section*/
+ 
+/*Second-Section*/
+/*Settings*/
+@media (max-width: 1272px) {
+.dashboard {
+  flex-wrap: wrap;
+}
+#settings .firstsection{
+  flex-wrap: wrap;
+}
+#settings .firstsection .srv {
+  flex-basis: 100%;
+}
+.dashboard .secondsection {
+  flex-wrap: wrap;
+}
+.dashboard .thirdsection {
+  flex-wrap: wrap;
+}
+
+}
+@media (max-width: 769px) {
+  #Manager .fe {
+    flex-direction: column;
+    text-align: center;
+    gap : 10px;
+  }
+  #Manager .fe span {
+    flex-basis: 100% !important;
+    text-align: center;
+  
+    justify-content: center !important;
+    transform: translate(-10px,-10px);
+  }
+} 
+
+
+
+
+
+#settings .srv {
+  flex-basis: 50%;
+}
+
+@media (max-width:1272px ) {
+  #settings .srv {
+    flex-basis: 100%;
+  }
+  
+}
+
+
+
