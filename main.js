@@ -61,3 +61,8 @@ sigma.onclick = function() {
     megaman.style = 'none';
     sigma.style.cssText = 'border: 2px solid #0075ff; color: #0075ff;'
 }
+
+
+
+
+ 
