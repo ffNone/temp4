@@ -9,6 +9,8 @@
 
 }  
 
+::-moz
+
 :root {
     color: #f6f6f6;
     color: #10cab7;
@@ -318,6 +320,7 @@
 .dashboard .first-srv #draft {
   background-color: white !important;
   border-radius: 10px;
+ 
 }
 .dashboard .first-srv #draft .first-section {
   padding: 20px;
@@ -461,7 +464,7 @@
 
   .header .dashboard {
     width: 100%;
-     
+   
     padding-left: 70px;
   }
   .header .dashboard .first-srv .first-section h3 {
@@ -500,17 +503,19 @@
   gap: 20px;
   padding-top: 15px;
   margin: 0;
+  
 }
 .sec-srv .srv {
   height: 400px;
   background-color: white;
   border-radius: 10px;
-  
+ 
 }
 
 
 .sec-srv .first-section {
   padding: 20px;
+  
 }
 .sec-srv .first-section h2 {
   color: black;
@@ -528,6 +533,7 @@
 .sec-srv .second-section {
   display: flex;
   gap: 30px;
+  
 }
 .sec-srv .second-section .i {
   position: relative;
@@ -636,12 +642,13 @@ border-width: 7px;
 
 
 /*Tickets*/
+ 
 .dashboard #tickets .second-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   transform: translateY(-40px);
-  
+ 
 }
 .dashboard #tickets .second-section .colmne {
   background-color: white;
@@ -693,16 +700,19 @@ border-width: 7px;
   gap: 20px;
   padding-top: 15px;
   padding-bottom: 15px;
+  
 }
 #news {
   position: relative;
   padding-bottom: 2px;
+ 
 }
 .third-srv .srv {
   border-radius: 10px;
   flex-basis: 100%;
   background-color: white;
   padding-left: 20px;
+ 
 }
 /*news*/
 .third-srv #news .cole .srve {
@@ -807,6 +817,7 @@ border-width: 7px;
 /*Tasks*/
  #tasks {
   overflow: hidden ;
+ 
 }
 #tasks span {
   color: #777;
@@ -887,7 +898,7 @@ border-width: 7px;
 .fourth-srv {
   display: flex;
   gap: 20px;
-  
+ 
 }
 .fourth-srv .srv {
   background-color: white;
@@ -898,6 +909,7 @@ border-width: 7px;
 /*items*/
 #items {
   position: relative;
+  
 }
 #items .content {
   padding-bottom: 15px;
@@ -949,6 +961,7 @@ border-width: 7px;
 /*Uploads*/
 #uploads {
   position: relative;
+ 
 }
 
 #uploads ul li {
@@ -1000,18 +1013,20 @@ border-width: 7px;
   padding-top: 15px;
     gap: 20px;
     display: flex;
-    
+   
 }
 
 .fifth-srv .srv {
   background-color: white;
     border-radius: 10px;
     height: 100%;
+     
 }
 /*progress*/
 #progress {
   position: relative;
   padding-bottom: 30px;
+  
 }
 .fifth-srv #progress  img {
   width: 160px;
@@ -1104,6 +1119,7 @@ border-width: 7px;
 /*Reminders*/
 #reminders {
   padding-bottom: 29px;
+ 
 }
 #reminders ul li{
   font-weight: bold;
@@ -1171,6 +1187,7 @@ border-width: 7px;
 /*Container*/
 .header .container {
   padding-right: 15px;
+ 
 }
 /*Container*/
 
@@ -1182,6 +1199,7 @@ border-width: 7px;
   padding-top: 15px;
   gap: 20px;
   display: flex;
+ 
 }
 
 .six-srv .srv {
@@ -1193,7 +1211,7 @@ border-width: 7px;
 
 
 /*Post*/
-
+ 
 #post h2 {
   padding-left: 20px;
     color: black;
@@ -1280,6 +1298,7 @@ border-width: 7px;
 
 .header .srv {
   overflow: hidden;
+
 }
 @media (max-width: 1172px) {
   .six-srv {
@@ -1291,7 +1310,8 @@ border-width: 7px;
 
 /*social*/
 #social {
-  padding-bottom: 30px;
+  padding-bottom: 33px;
+ 
 }
 #social h2{
   padding-left: 20px;
@@ -1386,5 +1406,123 @@ border-width: 7px;
   background-color: #0077b5;
 }
 /*social*/
-
 /*six-srv*/
+
+
+/*last-srv*/
+.last-srv {
+  padding-top: 20px;
+  overflow-x: auto;
+}
+
+
+.last-srv #Projects {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 1000px;
+  overflow-x: auto;
+  position: relative;
+}
+.last-srv #Projects > h2 {
+  position: absolute;
+}
+.last-srv #Projects  ul {
+  padding-top: 40px;
+  flex-basis: 100%;  
+}
+
+.last-srv #Projects  ul h2 {
+  font-size: 17px;
+  font-weight: 700;
+  background-color: rgba(136, 136, 136, 0.161);
+  padding: 15px;
+  z-index: 1;
+}
+.last-srv #Projects  ul  {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.last-srv #Projects  ul li {
+  padding-left: 10px;
+  transform: translateY(-40px);
+  position: relative;
+  padding: 20px;
+  text-align: start;
+}
+ 
+.last-srv #Projects .f-ul li {
+  padding-left: 30px;
+  height: 100%;
+  padding: 11px;
+}
+.last-srv #Projects .f-ul li img {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transform: translateX(20px);
+}
+.last-srv #Projects ul li:not(:first-child) img {
+  margin-left: -23px;
+}
+ 
+.last-srv #Projects  .fo-ul {
+  flex-basis: 40%;
+}
+.last-srv #Projects  .f-ul {
+  flex-basis: 70%;
+}
+.last-srv #Projects  .s-ul {
+  flex-basis: 67%;
+}
+
+.last-srv #Projects li {
+  width: 100%;
+  position: relative;
+   
+}
+
+.last-srv #Projects  li:not(:first-child):before {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.059);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+}
+.last-srv #Projects  li::after {
+  border-top: 1px solid rgba(0, 0, 0, 0.059);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+}
+
+.last-srv #Projects  ul:after {
+  border-left: 1px solid rgba(0, 0, 0, 0.059);
+  height: calc(100% - 149px);
+  width: 1px;
+  content: "";
+  bottom: 40px;
+  left: 0;
+  position: absolute;
+}
+.last-srv #Projects  ul:last-child:before {
+  border-left: 1px solid rgba(0, 0, 0, 0.059);
+  height: calc(100% - 133px);
+  width: 1px;
+  content: "";
+  bottom: 30px;
+  right: 0;
+  position: absolute;
+}
+.last-srv #Projects h2 {
+  transform: translateY(6px);
+}
+/*last-srv*/
