@@ -64,5 +64,6 @@ sigma.onclick = function() {
 
 
 
+let i1 = document.getElementById("i1")
 
  
