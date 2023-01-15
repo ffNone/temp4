@@ -1276,8 +1276,12 @@ border-width: 7px;
     height: 100%;
 }
 
-
-
+.six-srv  #social ul li i {
+  transition: 0.3s;
+}
+.six-srv  #social ul li i:hover {
+  transform: rotate(6deg);
+}
 /*Post*/
 #post {
   padding-bottom: 10px;
