@@ -3049,3 +3049,171 @@ padding-top: 15px;
   }
 }
 /*Courses*/
+
+
+
+
+/*Friends*/
+.friends {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.friends .fr {
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 13px;
+  padding-top: 25px;
+}
+.friends .fr img {
+  border-radius: 50%;
+  width: 100px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fr h2 {
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+}
+.friends .fr  > span  {
+  display: flex;
+  font-size: 13px;
+  color: #888;
+  font-weight: 450;
+  justify-content: center;
+  transform: translateY(-4px);
+}
+.friends .fr ul {
+  padding-left: 40px;
+  position: relative;
+  width: 97%;
+}
+.friends .fr ul li {
+  font-size: 14px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  position: relative;
+  width: 93%;
+}
+.friends .fr ul:before{
+  content: "";
+  position: absolute;
+  border-top: 1px solid rgba(0, 0, 0, 0.106);
+  width: calc(100% - 16px);
+  top: -10px;
+  left: 20px;
+}
+.friends .fr ul:after{
+  content: "";
+  position: absolute;
+  border-top: 1px solid rgba(0, 0, 0, 0.106);
+  width: calc(100% - 16px);
+  bottom: -3px;
+  left: 20px;
+}
+.friends .fr ul li:first-child:before {
+  content:"\f007";
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  position: absolute;
+  top: 0;
+  left: -17px;
+  color: black;
+  font-size: 14px;
+}
+.friends .fr ul li:nth-child(2):before {
+  content:"\f14a";
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  position: absolute;
+  top: 0;
+  left: -17px;
+  color: black;
+  font-size: 14px;
+}
+.friends .fr ul li:nth-child(3):before {
+  content:"\f15c";
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  position: absolute;
+  top: 0;
+  left: -17px;
+  color: black;
+  font-size: 14px;
+}
+.friends .fr .flast {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+.friends .fr .flast .ex {
+  font-size: 13px;
+  color: #888;
+  font-weight: 450;
+  padding: 4px;
+}
+.friends .fr .flast .spp {
+  font-size: 13px !important;
+   
+}
+.friends .fr .flast .spp span:first-child {
+  background-color: #0075ff;
+  padding: 3px 7px 3px;
+  border-radius: 4px;
+  color: white;
+}
+.friends .fr .flast .spp span:nth-child(2) {
+  background-color: #0075ff;
+  padding: 3px 7px 3px;
+  border-radius: 4px;
+  color: white;
+  background-color: #f44336;
+}
+.friends .fr  {
+  position: relative;
+}
+.friends .fr .fi {
+  position: absolute;
+  padding: 15px;
+  top: -5px;
+  left: -7px;
+}
+.friends .fr .fi i {
+  padding-right: 3px;
+   
+  background-color: rgba(0, 0, 0, 0.087);
+  border-radius: 50%;
+  padding: 9px !important;
+  font-size: 12px;
+  transition: 0.3s;
+ 
+}
+.friends .fr .fi i:hover {
+  cursor: pointer;
+  background-color: #0075ff;
+  color: white;
+}
+.friends .fr .vip {
+  position: absolute;
+  bottom: 20%;
+  transform: translateY(-20%);
+  right: 0;
+  padding-right: 20px;
+  font-size: 40px;
+  font-weight: 560;
+  opacity: 0.2;
+  color: orange;
+}
+
+@media (max-width: 390px ){
+  .friends {
+    grid-template-columns: minmax(200px ,1fr);
+  } 
+}
+/*Friends*/
