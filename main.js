@@ -9,6 +9,7 @@ let x3 = document.getElementById("fourth")
 let b3 = document.getElementById("fourthh")
 
 
+ 
 x.onfocus = function () {
     b.style.color = 'black'
 }
@@ -34,7 +35,56 @@ x3.onblur = function () {
     b3.style.color = 'rgba(0, 0, 0, 0.524)'
 }
 
+document.addEventListener("click", function (e) {
+    if (e.target === x) {
+        x.style.backgroundColor = '#0077ff2b'
+    }
+    x.onblur = function () {
+        x.style.backgroundColor = 'rgba(136, 136, 136, 0.074)' 
+        b.style.color = 'rgba(0, 0, 0, 0.524)'
+    }
+})
+document.addEventListener("click", function (e) {
+    if (e.target === x1) {
+        x1.style.backgroundColor = '#0d6ad5b0'
+    }
+    x1.onblur = function () {
+        x1.style.backgroundColor = 'rgba(136, 136, 136, 0.074)' 
+        b1.style.color = 'rgba(0, 0, 0, 0.524)'
+    }
+})
+document.addEventListener("click", function (e) {
+    if (e.target === x2) {
+        x2.style.backgroundColor = 'rgba(136, 136, 136, 0.375)'
+    }
+    x2.onblur = function () {
+        x2.style.backgroundColor = 'rgba(136, 136, 136, 0.074)' 
+        b2.style.color = 'rgba(0, 0, 0, 0.524)'
+    }
+})
+document.addEventListener("click", function (e) {
+    if (e.target === x3) {
+        x3.style.backgroundColor = '#f443364e'
+    }
+    x3.onblur = function () {
+        x3.style.backgroundColor = 'rgba(136, 136, 136, 0.074)' 
+        b3.style.color = 'rgba(0, 0, 0, 0.524)'
+    }
+})
 
+// document.addEventListener("click", function (e) {
+//     if (e.target === x ) {
+         
+//         let y =setTimeout( function () {
+//             alert("Write Your Twitter UserName!")
+            
+//         } ,100)
+//        document.onclick = function () {
+//         clearTimeout(y)
+//     }
+
+//     }
+// })
 
 
 
@@ -64,6 +114,5 @@ sigma.onclick = function() {
 
 
 
-let i1 = document.getElementById("i1")
 
  

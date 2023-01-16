@@ -356,6 +356,7 @@
   transform: translateY(-25px);
   border-radius: 10px;
   padding-left: 10px;
+  
 }
 .dashboard .first-srv #draft form input::placeholder {
   letter-spacing: -1px;
