@@ -2960,7 +2960,7 @@ padding-top: 15px;
 .courses .cs:after {
   content: "";
   position: absolute;
-  bottom: 46px;
+  bottom: 48px;
   left: 0;
   width: 100%;
   height: 1px;
@@ -2992,12 +2992,13 @@ padding-top: 15px;
   font-weight: 400;
   display: flex;
   padding-bottom: 25px;
+  line-height: 1.6;
 }
 .courses .cs .tinfo {
   display: flex;
   justify-content: center;
   align-self: center;
-  padding: 5px 7px 5px;
+  padding: 2px 7px 2px;
   background-color: #0075ff;
   width: fit-content;
   margin-left: auto;
@@ -3006,6 +3007,7 @@ padding-top: 15px;
   font-size: 13px;
   border-radius: 3px;
   z-index: 2;
+  font-weight: 600;
 }
 .courses .cs .llast {
   display: flex;
