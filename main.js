@@ -115,4 +115,3 @@ sigma.onclick = function() {
 
 
 
- 
